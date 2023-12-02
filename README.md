@@ -7,4 +7,4 @@ npm install
 npm start
 ```
 
-<img src="public/assets/scdesigner.gif" width=600/>
+<img src="public/assets/scdesign-vis.gif" width=600/>
