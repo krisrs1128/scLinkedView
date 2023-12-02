@@ -6,4 +6,4 @@ This is an experimental app for interactive model criticism of scDesign simulati
 npm start
 ```
 
-<img src="public/assets/scdesigner.gif" width=600/>/
+<img src="public/assets/scdesigner.gif" width=600/>
