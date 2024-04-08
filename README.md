@@ -4,7 +4,7 @@ This is an experimental svelte app for interactive model criticism of scDesign s
 
 ```
 npm install
-npm start
+npm run dev
 ```
 
 <img src="public/assets/scdesign-vis.gif" width=600/>
