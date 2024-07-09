@@ -91,7 +91,7 @@
               x2={x_scale(d[1].x)} 
               y1={y_scale(d[0].y)} 
               y2={y_scale(d[1].y)} 
-              stroke="#d3d3d3" 
+              stroke="#949494" 
               opacity={highlight_fun(d[0], highlight)}
               stroke-width={selection == d[0].feature? 4 : 1}
             />

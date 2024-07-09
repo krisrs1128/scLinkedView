@@ -17,14 +17,16 @@ let selection,
 
 <div>
   <div class="flex flex-wrap">
-    <div class="w-full xl:w-8/12 px-4 h-70-px">
+    <div class="w-9/12 xl:w-8/12 px-4 h-16">
       <DistanceBrush bind:highlight/>
     </div>
-    <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
-      <GeneUmap bind:selection bind:fill_scale bind:highlight/>
-    </div>
-    <div class="w-full xl:w-4/12 px-4">
-      <RibbonPlot bind:selection bind:fill_scale/>
+    <div class="flex flex-row w-full">
+      <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
+        <GeneUmap bind:selection bind:fill_scale bind:highlight/>
+      </div>
+      <div class="w-full xl:w-4/12 mb-12 xl:mb-0 px-4">
+        <RibbonPlot bind:selection bind:fill_scale/>
+      </div>
     </div>
   </div>
   <div class="flex flex-wrap mt-4">
